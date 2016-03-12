@@ -20,11 +20,7 @@
                 </div><!-- #logo -->
             </div><!--#header-->
             <div id="topmenu">
-		<?php if (isset($block_topmenu)): ?>
-		    <?php foreach ($block_topmenu as $t_menu): ?>
-			<?php echo $t_menu; ?>
-		    <?php endforeach; ?>
-		<?php endif; ?>
+			<?php echo $top_menu; ?>
             </div><!-- #topmenu -->
             <div id="content">
                 <div id="sidebar">
