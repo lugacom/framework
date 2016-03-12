@@ -2,6 +2,16 @@
 
  class Controller_Index extends Controller_Base {
 
+    public function before() {
+	parent::before();
+
+	$left_menu = Request::factory('widgets/LeftMenu')->execute();
+	$top_menu = Request::factory('widgets/TopMenu')->execute();
+
+	$this->template->block_left = array($left_menu);
+	$this->template->block_topmenu = array($top_menu);
+    }
+
     public function action_index() {
 
 	$this->template->page_title = 'Главная';
