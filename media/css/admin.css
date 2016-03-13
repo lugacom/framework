@@ -37,8 +37,8 @@ a{
 }
 
 #header{
-    height: 100px;
-    background: linear-gradient(to bottom, #393939 0%, #6C6C6C 70%);
+    height: 90px;
+    background: linear-gradient(to bottom, #393939 0%, #505050 70%);
     box-shadow: -8px 8px 10px rgba(0,0,0,.7);
     border: #848484 1px solid;
 }
