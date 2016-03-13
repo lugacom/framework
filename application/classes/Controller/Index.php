@@ -2,20 +2,17 @@
 
  class Controller_Index extends Controller_Base {
 
+    public $template = 'index/v_base';
+
     public function before() {
 	parent::before();
 
-	$left_menu = $this->widget_load('LeftMenu');
+	$top_menu = Widget::load('TopMenu');
+	$left_menu = Widget::load('LeftMenu');
 
+	$this->template->styles[] = 'media/css/site.css';
+	$this->template->top_menu = $top_menu;
 	$this->template->block_left = array($left_menu);
-    }
-
-    public function action_index() {
-
-	$this->template->page_title = 'Главная';
-
-	$block_center = view::factory('v_index');
-	$this->template->block_center = array($block_center);
     }
 
 }
