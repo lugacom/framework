@@ -12,6 +12,13 @@ Route::set('pages', '<action>(/<id>)', array('action' => 'about|contacts'))
 	    'controller' => 'pages',
 	));
 
+Route::set('articles', '(<controller>)/<id>-<artname>', array('id' => '[0-9]+'), array('artname' => '.+'))
+        ->defaults(array(
+	    'directory' => 'index',
+            'controller' => 'article',
+            'action' => 'index',
+        ));
+
 Route::set('admin', 'admin(/<controller>(/<action>(/<id>)))')
 	->defaults(array(
 	    'directory' => 'admin',
