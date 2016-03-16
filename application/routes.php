@@ -6,11 +6,17 @@ Route::set('widgets', 'widgets(/<controller>(/<param>))', array('param' => '.+')
 	    'action' => 'index',
 	));
 
+Route::set('pages', '<action>(/<id>)', array('action' => 'about|contacts'))
+	->defaults(array(
+	    'directory' => 'index',
+	    'controller' => 'pages',
+	));
+
 Route::set('admin', 'admin(/<controller>(/<action>(/<id>)))')
 	->defaults(array(
-            'directory'  => 'admin',
-            'controller' => 'main',
-            'action'     => 'index',
+	    'directory' => 'admin',
+	    'controller' => 'main',
+	    'action' => 'index',
 	));
 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
