@@ -12,7 +12,7 @@ Route::set('pages', '<action>(/<id>)', array('action' => 'about|contacts'))
 	    'controller' => 'pages',
 	));
 
-Route::set('articles', '(<controller>)/<id>-<artname>', array('id' => '[0-9]+'), array('artname' => '.+'))
+Route::set('article', '(<controller>)/<id>-<artname>', array('id' => '[0-9]+'), array('artname' => '.+'))
         ->defaults(array(
 	    'directory' => 'index',
             'controller' => 'article',

@@ -1,5 +1,5 @@
 <ul id="menu">
     <?php foreach ($top_menu as $top_menu): ?>
-        <li><a href="<?php echo ($top_menu['url']); ?>" target="<?php echo $top_menu['target']; ?>"><?php echo $top_menu['title'] ?></a></li>
+        <li><?php echo HTML::anchor($top_menu['url'], $top_menu['title'], array('target'=>$top_menu['target'],)); ?></li>
     <?php endforeach; ?>
 </ul>
