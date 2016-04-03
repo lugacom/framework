@@ -60,17 +60,19 @@
 				    hts = doc.createElement("script");
 			    hts.type = "text/javascript";
 			    hts.async = true;
-			    hts.src = (doc.location.protocol == "https:" ? "https:" : "http:") + "//c4.top.hsdn.org/ht.js";
+			    hts.src = (doc.location.protocol == "https:" ? "https:" : "http:") + "//c3.top.hsdn.org/ht.js";
 			    hte.parentNode.insertBefore(hts, hte);
 			})(document, window, "hsdn_top_callbacks");
 		    </script>
-		    <noscript><img src="//c4.top.hsdn.org/hit?id=4270" style="position:absolute; left:-9999px;" alt="" /></noscript>
-		    <a target="_top" href="//top.hsdn.org/redirect?from=4270"><img src="//c4.top.hsdn.org/logo?ic=5.1&amp;id=4270" style="border:0" alt="HSDN &mdash; Рейтинг сайтов" title="HSDN &mdash; Рейтинг сайтов" /></a>
+		    <noscript><img src="//c3.top.hsdn.org/hit?id=4270" style="position:absolute; left:-9999px;" alt="" /></noscript>
+		    <a target="_top" href="//top.hsdn.org/redirect?from=4270"><img src="//c3.top.hsdn.org/logo?ic=5.6&amp;id=4270" style="border:0" alt="HSDN &mdash; Рейтинг сайтов" title="HSDN &mdash; Рейтинг сайтов" /></a>
 		    <!-- /HSDN Top COUNTER -->
 
+
+
 		    <!--LiveInternet counter--><script type="text/javascript"><!--
-		    document.write("<a href='//www.liveinternet.ru/click' " +
-				"target=_blank><img src='//counter.yadro.ru/hit?t14.4;r" +
+document.write("<a href='//www.liveinternet.ru/click' " +
+				"target=_blank><img src='//counter.yadro.ru/hit?t18.5;r" +
 				escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
 				";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
 					screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
@@ -78,7 +80,7 @@
 				"' alt='' title='LiveInternet: показано число просмотров за 24" +
 				" часа, посетителей за 24 часа и за сегодня' " +
 				"border='0' width='88' height='31'><\/a>")
-			//--></script><!--/LiveInternet-->
+//--></script><!--/LiveInternet-->
 		</p>
 	    </div>
         </div><!--#footer-->
