@@ -286,7 +286,8 @@ li.current_page_item a{
 #footer p {
     font: 11px Verdana, Helvetica, Arial, sans-serif;
     color: #cccccc;
-    text-align: right;
+    text-align: center;
+    padding: 10px 0 0 0;
 }
 #footer p a {
     font-size: 11px;
@@ -297,7 +298,7 @@ li.current_page_item a{
 #footer p a:hover {
     color: #FF8056;
 }
-.copy{
+/*.copy{
     width: 50%;
     float: left;
 }
@@ -311,4 +312,4 @@ li.current_page_item a{
 .count p{
     margin: 0 5px 0 0;
     padding: 1px 0 0 0;
-}
+}*/
