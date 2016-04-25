@@ -131,10 +131,14 @@ li.current_page_item a{
 }
 .vidget ul li {
     padding-bottom: 2px;
+    font-size: 12px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #646464;
 }
 
 .vidget ul li a {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #646464;
@@ -193,7 +197,7 @@ li.current_page_item a{
     padding: 0 5px 10px 10px;
 }
 .post p {
-    font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px Courier New,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.42857;
     color: #333;
     /*text-align: justify;*/
@@ -211,7 +215,7 @@ li.current_page_item a{
 }
 .post-info a {
     float: left;
-    font: 14px  Arial, Verdana, Helvetica, sans-serif;
+    font: 14px  Courier New, Arial, Verdana, Helvetica, sans-serif;
     color: #646464;
     font-style: italic;
     display: inline-block;
