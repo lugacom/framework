@@ -4,10 +4,7 @@
  */
 
 return array(
-    'site_name' => 'YGServer',
+    'site_name'	       => 'YGServer',
     'site_description' => 'http://fw.ygserver.com',
-
     );
 
-
-?>
