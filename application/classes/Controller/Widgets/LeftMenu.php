@@ -7,7 +7,7 @@ class Controller_Widgets_LeftMenu extends Controller_Widgets {
 
     public function action_index() {
 
-	$menu = Model::factory('Menu')->find_all();
+	$menu = Model::factory('Menu')->menu();
 	$this->template->left_menu = $menu;
     }
 
