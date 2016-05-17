@@ -10,7 +10,9 @@ class Controller_Admin extends Controller_Base {
 	$left_menu = Widget::load('LeftMenuAdmin');
 
 	// Вывод в шаблон
-	$this->template->styles[] = 'media/css/admin.css';
+
+	$this->template->styles[] = 'media/css/reset.css';
+	$this->template->styles[] = 'media/css/site.css';
 	$this->template->top_menu = $top_menu;
 	$this->template->block_left = array($left_menu);
     }

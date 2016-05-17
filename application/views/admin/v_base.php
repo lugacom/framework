@@ -16,8 +16,11 @@
         <div id="container">
             <div id="header">
                 <div id="logo">
-                    <a href="<?php echo URL::site(''); ?>"><img src="/media/img/logo.png" alt="ygserver.com" /></a>
+                    <a href="<?php echo URL::site(''); ?>"><img src="/media/img/logo_1.png" alt="ygserver.com" /></a>
                 </div><!-- #logo -->
+		<div id="head_img">
+                    <img src="/media/img/bg_header_1.png" alt="ygserver.com" />
+                </div><!-- #head_img -->
             </div><!--#header-->
             <div id="topmenu">
 			<?php echo $top_menu; ?>

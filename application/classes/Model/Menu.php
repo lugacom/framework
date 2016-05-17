@@ -8,4 +8,10 @@
 	return $query->execute();
     }
 
+public function menu_admin() {
+	$query = DB::select()
+		->from('menu');
+	return $query->execute();
+    }
+
 }

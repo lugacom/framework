@@ -197,7 +197,7 @@ li.current_page_item a{
     padding: 0 5px 10px 10px;
 }
 .post p {
-    font: 16px Courier New,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px "Courier New","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.42857;
     color: #333;
     /*text-align: justify;*/
@@ -215,7 +215,7 @@ li.current_page_item a{
 }
 .post-info a {
     float: left;
-    font: 14px  Courier New, Arial, Verdana, Helvetica, sans-serif;
+    font: 14px  "Courier New", Arial, Verdana, Helvetica, sans-serif;
     color: #646464;
     font-style: italic;
     display: inline-block;
