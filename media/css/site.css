@@ -278,7 +278,7 @@ li.current_page_item a{
 
 #footer{
     min-height: 35px;
-    margin: -45px auto 0;
+    margin: -50px auto 0;
     width: 979px;
     position: relative;
     background: linear-gradient(to bottom, #9D9D9D 0%, #4E4E4E 70%);
